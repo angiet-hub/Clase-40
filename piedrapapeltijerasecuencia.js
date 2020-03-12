@@ -16,6 +16,7 @@
 
     for (let i = 0; i < length; i++) {
         jugada = Math.round(Math.random() * (jugadas.length - 1));
+        jugada = jugadas[jugada];
         secuencia += jugada + ",";
     }
     return secuencia
